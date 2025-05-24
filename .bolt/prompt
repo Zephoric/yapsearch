@@ -1,68 +1,93 @@
-YapSearch UI Improvement and Chat AI Research Enhancement Project Prompt
-Project Overview
+# YapSearch UI Improvement and Chat AI Research Enhancement Project Prompt
+
+## Project Overview
+
 Create an enhanced version of the YapSearch chat AI research application with a modern, intuitive UI and improved research capabilities. The current application provides basic chat functionality with AI-powered research features, but requires significant UI/UX improvements and functional enhancements to deliver a more engaging and productive user experience.
-Current Application Analysis
+
+## Current Application Analysis
+
 The existing YapSearch application is built with Next.js 14 App Router and uses React with TailwindCSS for styling. It implements a chat interface that allows users to interact with AI for research purposes. The application currently features:
-A basic chat interface with message history
-AI-powered responses with reasoning capabilities
-Search result integration within the chat flow
-Several suggestion types (Podcast Outline, YouTube Video Research, Short Form Hook Ideas, Newsletter Draft)
-A simple top navigation bar with minimal styling
+
+1. A basic chat interface with message history
+2. AI-powered responses with reasoning capabilities
+3. Search result integration within the chat flow
+4. Several suggestion types (Podcast Outline, YouTube Video Research, Short Form Hook Ideas, Newsletter Draft)
+5. A simple top navigation bar with minimal styling
+
 The application structure follows Next.js conventions with a main page component handling most of the chat logic and state management. The UI is functional but lacks visual appeal, intuitive navigation, and advanced features that would enhance the research experience.
-Desired Improvements
-UI Enhancements
+
+## Desired Improvements
+
+### UI Enhancements
+
 Transform the user interface to create a more engaging, professional, and intuitive experience:
-Implement a modern, visually appealing design system with consistent color schemes, typography, and component styling that follows current design trends while maintaining excellent readability and accessibility.
-Redesign the chat interface to include:
-Clear visual distinction between user messages and AI responses
-Better visualization of search results with previews and thumbnails
-Improved message threading and conversation organization
-Expandable/collapsible sections for reasoning and search results
-Visual indicators for loading states (thinking, searching, etc.)
-Create a responsive sidebar navigation that provides:
-Chat history/saved conversations
-Research categories and filters
-User settings and preferences
-Quick access to suggestion templates
-Design a more interactive top bar with:
-Search functionality
-User profile/settings access
-Help/documentation
-Share/export options for research results
-Implement dark/light mode toggle with smooth transitions and proper color management
-Functional Enhancements
+
+1. Implement a modern, visually appealing design system with consistent color schemes, typography, and component styling that follows current design trends while maintaining excellent readability and accessibility.
+
+2. Redesign the chat interface to include:
+   - Clear visual distinction between user messages and AI responses
+   - Better visualization of search results with previews and thumbnails
+   - Improved message threading and conversation organization
+   - Expandable/collapsible sections for reasoning and search results
+   - Visual indicators for loading states (thinking, searching, etc.)
+
+3. Create a responsive sidebar navigation that provides:
+   - Chat history/saved conversations
+   - Research categories and filters
+   - User settings and preferences
+   - Quick access to suggestion templates
+
+4. Design a more interactive top bar with:
+   - Search functionality
+   - User profile/settings access
+   - Help/documentation
+   - Share/export options for research results
+
+5. Implement dark/light mode toggle with smooth transitions and proper color management
+
+### Functional Enhancements
+
 Improve the research capabilities and overall functionality:
-Enhance the AI research workflow by:
-Adding the ability to refine search queries during a conversation
-Implementing source citation and credibility indicators
-Creating visual summaries of research findings (charts, tables, etc.)
-Allowing users to bookmark or save important information within a chat
-Implement advanced chat features:
-Message editing and deletion
-Conversation branching to explore different research paths
-Conversation summarization and key points extraction
-File attachment and image analysis capabilities
-Add productivity tools:
-Export options (PDF, Markdown, etc.) for research results
-Scheduling for follow-up research
-Integration with note-taking applications
-Collaboration features for team research
-Improve suggestion system:
-Expand suggestion types based on user needs
-Create customizable templates for different research scenarios
-Implement a learning system that improves suggestions based on user behavior
-Technical Requirements
-Maintain the existing Next.js 14 App Router architecture
-Continue using React and TailwindCSS for frontend development
-Ensure responsive design works across all device sizes
-Implement proper state management for complex UI interactions
-Optimize performance for quick loading and smooth interactions
-Ensure accessibility compliance (WCAG 2.1 AA)
-Implement proper error handling and recovery mechanisms
-Deliverables
-Complete UI redesign with all specified enhancements
-Functional prototype with improved research capabilities
-Responsive design that works on mobile, tablet, and desktop
-Documentation for new features and components
-Design system documentation for future extensions
+
+1. Enhance the AI research workflow by:
+   - Adding the ability to refine search queries during a conversation
+   - Implementing source citation and credibility indicators
+   - Creating visual summaries of research findings (charts, tables, etc.)
+   - Allowing users to bookmark or save important information within a chat
+
+2. Implement advanced chat features:
+   - Message editing and deletion
+   - Conversation branching to explore different research paths
+   - Conversation summarization and key points extraction
+   - File attachment and image analysis capabilities
+
+3. Add productivity tools:
+   - Export options (PDF, Markdown, etc.) for research results
+   - Scheduling for follow-up research
+   - Integration with note-taking applications
+   - Collaboration features for team research
+
+4. Improve suggestion system:
+   - Expand suggestion types based on user needs
+   - Create customizable templates for different research scenarios
+   - Implement a learning system that improves suggestions based on user behavior
+
+## Technical Requirements
+
+1. Maintain the existing Next.js 14 App Router architecture
+2. Continue using React and TailwindCSS for frontend development
+3. Ensure responsive design works across all device sizes
+4. Implement proper state management for complex UI interactions
+5. Optimize performance for quick loading and smooth interactions
+6. Ensure accessibility compliance (WCAG 2.1 AA)
+7. Implement proper error handling and recovery mechanisms
+
+## Deliverables
+
+1. Complete UI redesign with all specified enhancements
+2. Functional prototype with improved research capabilities
+3. Responsive design that works on mobile, tablet, and desktop
+4. Documentation for new features and components
+5. Design system documentation for future extensions
+
 This project aims to transform YapSearch from a basic chat research tool into a comprehensive, visually appealing, and highly functional research assistant that enhances productivity and delivers superior user experience.

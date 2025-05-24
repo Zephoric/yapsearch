@@ -1,93 +1,89 @@
-# YapSearch UI Improvement and Chat AI Research Enhancement Project Prompt
+# YapSearch Global Prompt for Bolt.new
 
-## Project Overview
+You are developing an enhanced version of YapSearch, a sophisticated chat AI research application that combines conversational AI with powerful research capabilities. Your task is to transform this application into a visually stunning, highly functional tool that helps users conduct research through natural conversation.
 
-Create an enhanced version of the YapSearch chat AI research application with a modern, intuitive UI and improved research capabilities. The current application provides basic chat functionality with AI-powered research features, but requires significant UI/UX improvements and functional enhancements to deliver a more engaging and productive user experience.
+## Application Vision
 
-## Current Application Analysis
+YapSearch serves as an intelligent research assistant that enables users to explore topics, gather information, and synthesize findings through a conversational interface. The application should feel like interacting with a knowledgeable research partner who not only retrieves information but also helps organize, analyze, and present it in useful ways.
 
-The existing YapSearch application is built with Next.js 14 App Router and uses React with TailwindCSS for styling. It implements a chat interface that allows users to interact with AI for research purposes. The application currently features:
+The enhanced YapSearch should embody these core principles:
 
-1. A basic chat interface with message history
-2. AI-powered responses with reasoning capabilities
-3. Search result integration within the chat flow
-4. Several suggestion types (Podcast Outline, YouTube Video Research, Short Form Hook Ideas, Newsletter Draft)
-5. A simple top navigation bar with minimal styling
+1. **Intuitive Research Flow**: The conversation should naturally guide users through their research journey, from initial queries to refined results and synthesized conclusions.
 
-The application structure follows Next.js conventions with a main page component handling most of the chat logic and state management. The UI is functional but lacks visual appeal, intuitive navigation, and advanced features that would enhance the research experience.
+2. **Visual Clarity**: Information should be presented in a visually appealing, well-organized manner that highlights important findings and makes complex information digestible.
 
-## Desired Improvements
+3. **Contextual Intelligence**: The application should maintain context throughout the research process, building upon previous exchanges and refining understanding over time.
 
-### UI Enhancements
+4. **Productivity Enhancement**: Features should be designed to save time, reduce cognitive load, and help users accomplish their research goals more efficiently than traditional search methods.
 
-Transform the user interface to create a more engaging, professional, and intuitive experience:
+## Design Philosophy
 
-1. Implement a modern, visually appealing design system with consistent color schemes, typography, and component styling that follows current design trends while maintaining excellent readability and accessibility.
+The UI design should follow these guiding principles:
 
-2. Redesign the chat interface to include:
-   - Clear visual distinction between user messages and AI responses
-   - Better visualization of search results with previews and thumbnails
-   - Improved message threading and conversation organization
-   - Expandable/collapsible sections for reasoning and search results
-   - Visual indicators for loading states (thinking, searching, etc.)
+1. **Clean and Focused**: Minimize visual clutter while maximizing information density. Each element should serve a clear purpose in the research workflow.
 
-3. Create a responsive sidebar navigation that provides:
-   - Chat history/saved conversations
-   - Research categories and filters
-   - User settings and preferences
-   - Quick access to suggestion templates
+2. **Progressive Disclosure**: Complex features should be revealed progressively as needed, keeping the initial interface simple while allowing for depth.
 
-4. Design a more interactive top bar with:
-   - Search functionality
-   - User profile/settings access
-   - Help/documentation
-   - Share/export options for research results
+3. **Visual Hierarchy**: Establish clear visual relationships between different types of information (user queries, AI responses, search results, citations, etc.) through consistent use of color, typography, spacing, and visual elements.
 
-5. Implement dark/light mode toggle with smooth transitions and proper color management
+4. **Responsive Fluidity**: The interface should adapt seamlessly across device sizes without compromising functionality or visual appeal.
 
-### Functional Enhancements
+5. **Delightful Interactions**: Incorporate subtle animations, transitions, and micro-interactions that make the application feel responsive and engaging without being distracting.
 
-Improve the research capabilities and overall functionality:
+## Conversation Experience
 
-1. Enhance the AI research workflow by:
-   - Adding the ability to refine search queries during a conversation
-   - Implementing source citation and credibility indicators
-   - Creating visual summaries of research findings (charts, tables, etc.)
-   - Allowing users to bookmark or save important information within a chat
+The chat experience should be reimagined to support research activities:
 
-2. Implement advanced chat features:
-   - Message editing and deletion
-   - Conversation branching to explore different research paths
-   - Conversation summarization and key points extraction
-   - File attachment and image analysis capabilities
+1. **Message Differentiation**: User messages and AI responses should be visually distinct, with additional visual cues for different types of AI responses (direct answers, search results, reasoning, suggestions).
 
-3. Add productivity tools:
-   - Export options (PDF, Markdown, etc.) for research results
-   - Scheduling for follow-up research
-   - Integration with note-taking applications
-   - Collaboration features for team research
+2. **Research Context**: The conversation should maintain and display relevant context, including the current research topic, key findings so far, and potential next directions.
 
-4. Improve suggestion system:
-   - Expand suggestion types based on user needs
-   - Create customizable templates for different research scenarios
-   - Implement a learning system that improves suggestions based on user behavior
+3. **Information Visualization**: Where appropriate, information should be presented in visual formats (charts, tables, cards) rather than plain text to improve comprehension and retention.
 
-## Technical Requirements
+4. **Source Transparency**: Search results and citations should be clearly attributed with visual indicators of source credibility and relevance.
 
-1. Maintain the existing Next.js 14 App Router architecture
-2. Continue using React and TailwindCSS for frontend development
-3. Ensure responsive design works across all device sizes
-4. Implement proper state management for complex UI interactions
-5. Optimize performance for quick loading and smooth interactions
-6. Ensure accessibility compliance (WCAG 2.1 AA)
-7. Implement proper error handling and recovery mechanisms
+5. **Interactive Elements**: Messages should contain interactive elements where appropriate, such as expandable sections for detailed reasoning, clickable citations, and actionable suggestions.
 
-## Deliverables
+## Technical Implementation
 
-1. Complete UI redesign with all specified enhancements
-2. Functional prototype with improved research capabilities
-3. Responsive design that works on mobile, tablet, and desktop
-4. Documentation for new features and components
-5. Design system documentation for future extensions
+When implementing the enhanced YapSearch:
 
-This project aims to transform YapSearch from a basic chat research tool into a comprehensive, visually appealing, and highly functional research assistant that enhances productivity and delivers superior user experience.
+1. **Component Architecture**: Design a modular component system that allows for consistent styling and behavior across the application while enabling easy updates and extensions.
+
+2. **State Management**: Implement robust state management to handle complex conversation flows, search results, user preferences, and application settings.
+
+3. **Performance Optimization**: Ensure the application remains responsive even with long conversations and rich media content through techniques like virtualization, lazy loading, and efficient rendering.
+
+4. **Accessibility**: Build accessibility into the core design, ensuring the application is usable by people with diverse abilities and meets WCAG 2.1 AA standards.
+
+5. **Error Handling**: Implement graceful error handling and recovery mechanisms to maintain a smooth user experience even when issues occur.
+
+## User-Centered Features
+
+The enhanced application should include these user-centered features:
+
+1. **Personalization**: Allow users to customize the interface, save preferences, and receive personalized research suggestions based on their history and behavior.
+
+2. **Research Organization**: Provide tools for organizing research findings, including conversation categorization, tagging, and search within past conversations.
+
+3. **Export and Sharing**: Enable users to export research findings in various formats (PDF, Markdown, etc.) and share insights with others through direct links or collaboration features.
+
+4. **Continuous Learning**: Design the system to learn from user interactions, improving suggestion quality and search relevance over time.
+
+5. **Contextual Help**: Integrate subtle guidance and tooltips to help users discover and utilize the full capabilities of the application.
+
+## Implementation Approach
+
+When building this enhanced version of YapSearch:
+
+1. Start with the core conversation experience, ensuring the fundamental research flow is intuitive and effective.
+
+2. Implement the visual design system, establishing consistent patterns for all UI elements.
+
+3. Add advanced features progressively, testing each addition with the core research use cases.
+
+4. Optimize for performance and accessibility throughout the development process.
+
+5. Gather feedback on the user experience and iterate on the design to address pain points and enhance successful features.
+
+By following this global prompt, you will create a version of YapSearch that not only looks beautiful but fundamentally transforms how users conduct research through conversation, making the process more intuitive, efficient, and enjoyable.
